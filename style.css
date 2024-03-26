@@ -197,7 +197,13 @@ footer {
 }
 @media screen and (max-width: 475px) and (min-width: 376px) {
    aside img {
-      content: url("assets/images/illustration-sign-up-desktop.svg");
       object-fit: cover;
+      height: 40vh;
+      position: absolute;
+      top: 0;
+   }
+   main section{
+      position: absolute;
+      top: 380px;
    }
 }
