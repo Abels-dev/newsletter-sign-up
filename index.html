@@ -37,11 +37,17 @@
             </article>
 
             <form action="" id="form">
-               <div class="label"><label for="email">Email address</label><div class="error"></div></div>
-               <div id="emailHolder"><input
-                type="text"
-                name="email"
-                placeholder="email@company.com" id="email"/></div>
+               <div class="label">
+                  <label for="email">Email address</label>
+                  <div class="error"></div>
+               </div>
+               <div id="emailHolder">
+                  <input
+                     type="text"
+                     name="email"
+                     placeholder="email@company.com"
+                     id="email" />
+               </div>
                <button id="submit">Subscribe to monthly newsletter</button>
             </form>
          </section>
@@ -53,13 +59,15 @@
 
       <!-- Success message start -->
       <section class="success">
-         <img src="assets/images/icon-success.svg" alt="" />
-         <h1>Thanks for subscribing!</h1>
-         <p>
-            A confirmation email has been sent to
-            <span id="personEmail"></span>. Please open it and click the button
-            inside to confirm your subscription.
-         </p>
+         <article>
+            <img src="assets/images/icon-success.svg" alt="" />
+            <h1>Thanks for subscribing!</h1>
+            <p>
+               A confirmation email has been sent to
+               <span id="personEmail"></span>. Please open it and click the
+               button inside to confirm your subscription.
+            </p>
+         </article>
          <button id="dismiss">Dismiss message</button>
       </section>
    </body>

@@ -9,9 +9,8 @@ const emailPattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 form.addEventListener("submit",function (e) {
     e.preventDefault();
       if(emailPattern.test(email.value)){
-          console.log(emailPattern.test(email.value))
           main.style.display="none";
-          successMsg.style.display="block"
+          successMsg.style.display="flex"
           personEmail.textContent=email.value;
           errorMsg.textContent=""
           email.style.backgroundColor="hsl(0, 0%, 100%)"
