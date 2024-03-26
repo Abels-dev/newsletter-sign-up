@@ -30,6 +30,7 @@ body {
 }
 main {
    background-color: var(--White);
+   width: 100%;
    max-width: 900px;
    border: 2px solid black;
    border-radius: 25px;
@@ -111,6 +112,35 @@ button:hover{
 }
 .success {
    display: none;
+   background-color: var(--White);
+   width: 400px;
+   border-radius: 15px;
+   margin-top: 20px;
+   padding: 1.5rem;
+   padding-right: 3rem;
+   padding-left: 3rem;
+}
+.success p{
+    color: var(--Charcoal-Grey);
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.success button{
+    width: 100%;
+    margin-top: 10px;
+}
+.success img{
+    width: 40px;
+    height: auto;
+}
+.error{
+    color: var(--Tomato);
+    font-weight: 700;
+}
+span{
+    font-weight: 700;
+    color: var(--Dark-Slate-Grey);
 }
 footer{
     position: absolute;

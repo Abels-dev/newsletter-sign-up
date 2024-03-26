@@ -12,9 +12,10 @@
       <title>
          Frontend Mentor | Newsletter sign-up form with success message
       </title>
+      <script src="script.js" defer></script>
    </head>
    <body>
-      <main>
+      <main id="main">
          <section id="main-section">
             <h1>Stay updated!</h1>
 
@@ -35,12 +36,12 @@
                </div>
             </article>
 
-            <form action="">
-               <div class="label"><label for="email">Email address</label><div id="error"></div></div>
-               <div><input
+            <form action="" id="form">
+               <div class="label"><label for="email">Email address</label><div class="error"></div></div>
+               <div id="emailHolder"><input
                 type="text"
                 name="email"
-                placeholder="email@company.com" /></div>
+                placeholder="email@company.com" id="email"/></div>
                <button id="submit">Subscribe to monthly newsletter</button>
             </form>
          </section>
